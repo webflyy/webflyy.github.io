@@ -16,6 +16,7 @@
 .single_portfolio{
     position: relative;
     width: 20%;
+    padding: 40px;
     
     @media #{$md}{
         width: 50%;
