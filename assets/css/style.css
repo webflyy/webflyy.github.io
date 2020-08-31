@@ -611,7 +611,7 @@ p {
 .single_portfolio {
   position: relative;
   width: 20%;
-  padding: 40px; }
+  padding: 60px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single_portfolio {
       width: 50%; } }
