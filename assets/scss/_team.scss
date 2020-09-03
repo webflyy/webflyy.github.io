@@ -9,16 +9,30 @@
 .single_team{
     position: relative;
     
-    & img{
-        width: 100%;
+    & .single_team_img_wrap {
+        height: 371px;
+
+        @media #{$lg}{
+            height: 262px;
+        }
+        @media #{$md}{
+            height: 262px;
+        }
+        @media #{$xs}{
+            height: 420px;
+        }
+
+        & img{
+            width: 100%;
+        }    
     }
     & .team_content{
         position: absolute;
-        background-color: $white;
+        background-color: $gray;
         left: 0;
         bottom: 0;
         width: 85%;
-        padding: 25px;
+        padding-left: 10px;
         padding-right: 60px;
         
         & .team_name{

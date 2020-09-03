@@ -797,15 +797,26 @@ p {
 ===========================*/
 .single_team {
   position: relative; }
-  .single_team img {
-    width: 100%; }
+  .single_team .single_team_img_wrap {
+    height: 371px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .single_team .single_team_img_wrap {
+        height: 262px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .single_team .single_team_img_wrap {
+        height: 262px; } }
+    @media (max-width: 767px) {
+      .single_team .single_team_img_wrap {
+        height: 420px; } }
+    .single_team .single_team_img_wrap img {
+      width: 100%; }
   .single_team .team_content {
     position: absolute;
-    background-color: #fff;
+    background-color: #F9F9F9;
     left: 0;
     bottom: 0;
     width: 85%;
-    padding: 25px;
+    padding-left: 10px;
     padding-right: 60px; }
     .single_team .team_content .team_name a {
       font-size: 20px;
